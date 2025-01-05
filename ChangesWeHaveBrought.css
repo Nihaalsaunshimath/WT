@@ -1,0 +1,113 @@
+/* General Container Styling */
+.page-container {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0 auto;
+  padding: 40px;
+  max-width: 1200px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+}
+
+/* Header Section */
+.page-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.page-header h1 {
+  font-size: 3rem;
+  color: #333;
+  font-weight: 700;
+  letter-spacing: -1px;
+  line-height: 1.2;
+}
+
+/* Content Section */
+.content {
+  text-align: center;
+  padding: 40px 0;
+  color: #444;
+}
+
+/* Before and After Section - Flexbox Layout */
+.before-after {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin: 30px 0;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+/* Image Container Styling */
+.image-container {
+  flex: 1;
+  max-width: 500px;
+  text-align: center;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #f7f7f7;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.image-container h3 {
+  font-size: 1.75rem;
+  color: #555;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.image-container .image {
+  width: 100%;
+  max-width: 480px;
+  height: auto;
+  border-radius: 12px;
+  border: none;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.image-container .image:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+/* Description Styling */
+.description {
+  font-size: 1.125rem;
+  color: #666;
+  line-height: 1.8;
+  margin-top: 20px;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  font-weight: 400;
+}
+
+/* Responsive Design for Mobile */
+@media (max-width: 768px) {
+  .before-after {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .image-container {
+    max-width: 100%;
+    padding: 15px;
+  }
+
+  .image-container h3 {
+    font-size: 1.5rem;
+  }
+
+  .image-container .image {
+    max-width: 100%;
+  }
+
+  .description {
+    font-size: 1rem;
+    padding: 10px;
+  }
+}

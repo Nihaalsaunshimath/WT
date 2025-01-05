@@ -1,0 +1,156 @@
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f7fa;
+  color: #333;
+}
+
+/* Header Styles */
+.header {
+  background-color: #4caf50;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.nav {
+  display: flex;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li {
+  font-size: 16px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+  color: #ffeb3b;
+}
+
+/* Content Styles */
+.content {
+  padding: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.contact-container {
+  background-color: white;
+  padding: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.contact-container h2 {
+  font-size: 32px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.contact-container p {
+  font-size: 18px;
+  margin-bottom: 30px;
+  color: #666;
+}
+
+.contact-details {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+
+.contact-box {
+  text-align: center;
+}
+
+.contact-item {
+  text-align: center;
+  color: #333;
+}
+
+.contact-item p {
+  font-size: 16px;
+  margin-top: 10px;
+  color: #555;
+}
+
+.icon {
+  background-color: #00bcd4;
+  color: white;
+  width: 50px;
+  height: 50px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.location-box {
+  background-color: white;
+  padding: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.location-box h3 {
+  font-size: 24px;
+  color: #4caf50;
+  margin-bottom: 20px;
+}
+
+.map-image {
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  border-radius: 8px;
+}
+.map-link {
+  display: block;
+  margin: 1rem 0;
+  font-size: 1.2rem;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.map-link:hover {
+  text-decoration: underline;
+}
+
+
+/* Footer Styles */
+.footer {
+  background-color: #f8f9fa;
+  padding: 20px;
+  text-align: center;
+  color: #333;
+  font-size: 14px;
+}
